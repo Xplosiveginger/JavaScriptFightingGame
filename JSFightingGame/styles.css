@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.canvasholder{
+    position: relative;
+    display: inline-block;
+}
+
+.matchStatus{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.p1, .p2{
+    background-color: yellow;
+    height: 30px;
+    width: 100%;
+}
+
+.timer{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    flex-shrink: 0;
+}
