@@ -6,7 +6,7 @@ canvas.height = 920
 
 c.fillRect(0, 0, canvas.width, canvas.height)
 
-const gravity = 1.2
+const gravity = 0.89
 
 //Sprite Class with player1 and player2 data and functions
 class Sprite
