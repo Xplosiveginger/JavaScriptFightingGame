@@ -113,8 +113,6 @@ const player2 = new Sprite({
     }
 })
 
-console.log(player1)
-
 const keys = {
     a : {
         pressed: false
